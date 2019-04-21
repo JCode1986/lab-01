@@ -1,15 +1,14 @@
 header {
   width: 480px;
   height: 75px;
+  background-color: rgb(65, 2, 2)
 }
 
 header, footer, nav {
-  background: blue;
   border: 1px solid black;
 }
 
 section {
-  background: blue;
   border: 1px solid black;
   float: left;
 }
@@ -23,42 +22,50 @@ body {
 nav {
   width: 480px;
   height: 150px;
+  background-color: red
 }
 
 #section1 {
   width: 480px;
   height: 125px;
+  background-color: rgb(206, 27, 27)
 }
 
 #section2 {
   width: 480px;
   height: 125px;
+  background-color: rgb(250, 65, 65)
 }
 
 #section3 {
   width: 240px;
   height: 250px;
+  background-color: rgb(250, 120, 120)
 }
 
 #section4 {
   width: 240px;
   height: 250px;
+  background-color: rgb(255, 162, 162)
 }
 
 #section5 {
   width: 240px;
   height: 250px;
+  background-color: rgb(248, 200, 200)
 }
 
 #section6 {
   width: 240px;
   height: 250px;
+  background-color: rgb(255, 224, 224)
 }
 
 footer {
   width: 480px;
   height: 80px;
   clear: left;
+  background-color: rgb(133, 115, 115)
 }
 
 @media only screen and (min-width: 768px) {
@@ -70,39 +77,48 @@ footer {
   header {
     width: 960px;
     height: 100px;
+    background-color: blue
   }
 
   nav {
     float: left;
     width: 200px;
     height: 600px;
+    background-color: rgb(51, 51, 247)
   }
 
   #section1 {
     width: 380px;
     height: 200px;
+    background-color: rgb(89, 89, 253)
   }
 
   #section2  {
     width: 380px;
     height: 200px;
+    background-color: rgb(3, 3, 192)
   }
 
   #section3 {
     width: 190px;
     height: 250px;
+    color: red;
+    background-color: rgb(7, 7, 136)
   }
   #section4 {
     width: 190px;
     height: 250px;
+    background-color: rgb(26, 26, 110)
   }
   #section5 {
     width: 190px;
     height: 250px;
+    background-color: rgb(33, 33, 66)
   }
   #section6 {
     width: 190px;
     height: 250px;
+    background-color: rgb(36, 36, 56)
   }
 
   footer {
@@ -110,5 +126,6 @@ footer {
     height: 150px;
     clear: unset;
     float: left;
+    background-color: rgb(2, 2, 41)
   }
 }
